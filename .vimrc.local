@@ -1,0 +1,25 @@
+nnoremap <leader>jc :YcmCompleter GoToDeclaration<CR>
+nnoremap <leader>jd :YcmCompleter GoToDefinition<CR>
+nnoremap <leader>ji :YcmCompleter GoToInclude<CR>
+
+let g:ycm_confirm_extra_conf = 0
+
+vnoremap <Leader>y "+y
+nmap <Leader>p "+p
+
+nnoremap nw <C-W><C-W>
+nnoremap <Leader>lw <C-W>l
+nnoremap <Leader>hw <C-W>h
+nnoremap <Leader>jw <C-W>j
+nnoremap <Leader>kw <C-W>k
+
+fun! ToggleFullscreen()
+    call system("wmctrl -ir " . v:windowid . " -b toggle,fullscreen")
+endf
+
+map <silent><F11> :call ToggleFullscreen()<CR>
+
+autocmd VimEnter * call ToggleFullscreen()
+
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_by_filename = 1
