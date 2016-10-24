@@ -7,6 +7,18 @@ nnoremap <Leader>hw <C-W>h
 nnoremap <Leader>jw <C-W>j
 nnoremap <Leader>kw <C-W>k
 
+if has('mac')
+elseif has("unix")
+
+    fun! ToggleFullscreen()
+        call system("wmctrl -ir " . v:windowid . " -b toggle,fullscreen")
+    endf
+
+    map <silent><F11> :call ToggleFullscreen()<CR>
+    autocmd VimEnter * call ToggleFullscreen()
+
+endif
+
 
 " YCM 补全菜单配色
 " 菜单
