@@ -1,2 +1,4 @@
 Bundle 'rdnetto/YCM-Generator'
 Bundle 'ervandew/supertab'
+Bundle 'octol/vim-cpp-enhanced-highlight'
+Bundle 'derekwyatt/vim-fswitch'
