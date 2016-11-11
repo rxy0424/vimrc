@@ -1,12 +1,15 @@
+"使用系统剪切板
 vnoremap <Leader>y "+y
 nmap <Leader>p "+p
 
+"分屏相关
 nnoremap nw <C-W><C-W>
 nnoremap <Leader>lw <C-W>l
 nnoremap <Leader>hw <C-W>h
 nnoremap <Leader>jw <C-W>j
 nnoremap <Leader>kw <C-W>k
 
+"在linux下自动最大化
 if has('mac')
 elseif has("unix")
 
@@ -44,12 +47,13 @@ let g:ycm_seed_identifiers_with_syntax=1
 
 let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
 
+"ycm跳转相关
 nnoremap <leader>jc :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>jd :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>ji :YcmCompleter GoToInclude<CR>
 
 
-
+"ctrlp相关
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_by_filename = 1
 
