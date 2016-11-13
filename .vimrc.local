@@ -71,3 +71,6 @@ let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 nmap <silent> <Leader>sw :FSHere<cr>
 
 let g:ctrlsf_default_root = 'project'
+
+set wildmenu
+set wildmode=full
