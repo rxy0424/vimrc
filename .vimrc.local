@@ -76,3 +76,6 @@ let g:ctrlsf_default_root = 'project'
 
 set wildmenu
 set wildmode=full
+
+"show the characters in tex's equation in it own way
+set conceallevel=0
