@@ -9,4 +9,4 @@ elseif has('unix')
     let g:Tex_ViewRule_pdf = 'evince'
 endif
 
-imap <c-j> <Plug>IMAP_DeleteAndJumpBack       
+imap <c-i> <Plug>IMAP_DeleteAndJumpBack       
