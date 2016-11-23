@@ -79,3 +79,12 @@ set wildmode=full
 
 "show the characters in tex's equation in it own way
 set conceallevel=0
+
+"remove spll status shwo in the statusline
+let g:airline_detect_spell  = 0
+"remove the buffer befor and after the current
+let g:airline_section_c =  "%<%{bufferline#refresh_status()}%#bufferline_selected# %{g:bufferline_status_info.current} %#__accent_red#%{airline#util#wrap(airline#parts#readonly(),0)}%#__restore__#"
+"revome the target ther curcorse is bing
+let g:airline_section_x = "%{airline#util#wrap(airline#parts#filetype(),0)}"
+"remove the statline buffname
+let g:bufferline_echo = 0
