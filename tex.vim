@@ -9,4 +9,4 @@ elseif has('unix')
     let g:Tex_ViewRule_pdf = 'evince'
 endif
 
-imap <c-i> <Plug>IMAP_DeleteAndJumpBack       
+let b:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'",'"':'"'}
