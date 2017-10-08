@@ -88,3 +88,13 @@ let g:airline_section_c =  "%<%{bufferline#refresh_status()}%#bufferline_selecte
 let g:airline_section_x = "%{airline#util#wrap(airline#parts#filetype(),0)}"
 "remove the statline buffname
 let g:bufferline_echo = 0
+
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+set mouse=
