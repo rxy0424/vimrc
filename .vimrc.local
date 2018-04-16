@@ -1,3 +1,5 @@
+call neomake#configure#automake('w')
+colorscheme peaksea
 "使用系统剪切板
 vnoremap <Leader>y "+y
 nmap <Leader>p "+p
