@@ -1,0 +1,13 @@
+Bundle 'rdnetto/YCM-Generator'
+UnBundle 'scrooloose/syntastic'
+Bundle 'ervandew/supertab'
+Bundle 'neomake/neomake'
+Bundle 'octol/vim-cpp-enhanced-highlight'
+Bundle 'derekwyatt/vim-fswitch'
+Bundle 'dyng/ctrlsf.vim'
+Plugin 'skywind3000/asyncrun.vim'
+Plugin 'rxy0424/rxy-cmake'
+Plugin 'vim-latex/vim-latex'
+if has('mac')
+elseif has("unix")
+endif
