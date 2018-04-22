@@ -18,6 +18,7 @@ Plug 'dyng/ctrlsf.vim'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'rxy0424/rxy-cmake'
 Plug 'vim-latex/vim-latex'
+Plug 'junegunn/fzf', { 'dir': '~/.vim/bundle/.fzf'}
 
 
 if has('mac')
