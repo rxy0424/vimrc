@@ -1,9 +1,13 @@
 call neomake#configure#automake('w')
-colorscheme peaksea
+
+"colorscheme peaksea
+colorscheme solarized
+
 "使用系统剪切板
 vnoremap <Leader>y "+y
 nmap <Leader>p "+p
 
+"在命令模式下使用快捷键
 cnoremap <c-n> <down>
 cnoremap <c-p> <up>
 
