@@ -4,6 +4,9 @@ colorscheme peaksea
 vnoremap <Leader>y "+y
 nmap <Leader>p "+p
 
+cnoremap <c-n> <down>
+cnoremap <c-p> <up>
+
 "分屏相关
 nnoremap nw <C-W><C-W>
 nnoremap <Leader>lw <C-W>l
