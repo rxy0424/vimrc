@@ -18,7 +18,7 @@ Plug 'dyng/ctrlsf.vim'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'rxy0424/rxy-cmake'
 Plug 'vim-latex/vim-latex'
-Plug 'junegunn/fzf', { 'dir': '~/.vim/bundle/.fzf'}
+Plug 'junegunn/fzf', { 'dir': '~/.vim/bundle/.fzf', 'do': './install --all'}
 Plug 'ConradIrwin/vim-bracketed-paste'
 " Plug 'andymass/vim-matchup'
 
