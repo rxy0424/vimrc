@@ -20,6 +20,7 @@ Plug 'rxy0424/rxy-cmake'
 Plug 'vim-latex/vim-latex'
 Plug 'junegunn/fzf', { 'dir': '~/.vim/bundle/.fzf'}
 Plug 'ConradIrwin/vim-bracketed-paste'
+" Plug 'andymass/vim-matchup'
 
 
 if has('mac')

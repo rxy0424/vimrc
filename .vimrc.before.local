@@ -1,2 +1,4 @@
 let g:spf13_bundle_groups=['general', 'writing', 'youcompleteme', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc',]
 let g:ale_emit_conflict_warnings = 0
+
+let g:loaded_matchit = 1
