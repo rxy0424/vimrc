@@ -20,6 +20,7 @@ Plug 'rxy0424/rxy-cmake'
 Plug 'vim-latex/vim-latex'
 Plug 'junegunn/fzf', { 'dir': '~/.vim/bundle/.fzf', 'do': './install --all'}
 Plug 'ConradIrwin/vim-bracketed-paste'
+Plug 'Yggdroot/LeaderF', {'do': './install.sh'}
 " Plug 'andymass/vim-matchup'
 
 

@@ -2,3 +2,7 @@ let g:spf13_bundle_groups=['general', 'writing', 'youcompleteme', 'programming',
 let g:ale_emit_conflict_warnings = 0
 
 let g:loaded_matchit = 1
+
+" disable python-mode insert breakpoint in .py file because it confit with
+" Leaerrf
+let g:pymode_breakpoint = 0
