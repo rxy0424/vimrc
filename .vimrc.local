@@ -138,3 +138,5 @@ let g:Lf_NormalMap = {
     \ "Function":    [["<ESC>", ':exec g:Lf_py "functionExplManager.quit()"<CR>']],
     \ "Colorscheme":    [["<ESC>", ':exec g:Lf_py "colorschemeExplManager.quit()"<CR>']],
     \ }
+
+nnoremap <F2> :CtrlSF<space>
