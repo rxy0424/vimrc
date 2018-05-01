@@ -1,4 +1,6 @@
-call neomake#configure#automake('w')
+if exists("neomake")
+    call neomake#configure#automake('w')
+endif
 
 "colorscheme peaksea
 colorscheme solarized
