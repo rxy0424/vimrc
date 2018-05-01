@@ -48,3 +48,6 @@ else
     echo "no magic_commit has been found in ~/.xinitrc, changeing the file"
     add_to_xinitrc
 fi
+
+# tell git to remember your password in github
+# git config --global credential.helper store
