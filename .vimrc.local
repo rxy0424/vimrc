@@ -2,8 +2,10 @@ if exists("neomake")
     call neomake#configure#automake('w')
 endif
 
-"colorscheme peaksea
-colorscheme solarized
+let g:asyncrun_open = 6
+
+colorscheme peaksea
+" colorscheme solarized
 
 "使用系统剪切板
 vnoremap <Leader>y "+y
