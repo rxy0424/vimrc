@@ -37,3 +37,6 @@ cd ~/.vim/bundle/YouCompleteMe
 ```
 ## 5. Have fun
 You are welcome to PR.
+
+## ATTENTION
+Because of the version dependance config file for tmux, `bc` need to be installed.
