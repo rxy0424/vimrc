@@ -9,7 +9,6 @@
 "Plugin 'rxy0424/rxy-cmake'
 "Plugin 'vim-latex/vim-latex'
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
-UnPlug 'scrooloose/syntastic'
 Plug 'ervandew/supertab'
 Plug 'neomake/neomake'
 Plug 'octol/vim-cpp-enhanced-highlight'
