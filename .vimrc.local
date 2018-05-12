@@ -144,3 +144,6 @@ let g:Lf_NormalMap = {
     \ }
 
 nnoremap <F2> :CtrlSF<space>
+
+"airline font
+let g:airline_powerline_fonts = 1
