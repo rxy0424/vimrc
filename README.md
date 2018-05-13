@@ -36,7 +36,7 @@ cd ~/.vim/bundle/YouCompleteMe
 ./install.py --clang-completer
 ```
 ## 5. Install tmux >= 2.1
-install tmux >=2.1 and [oh-my-tmux](https://github.com/gpakosz/.tmux)
+install tmux >=2.1 and [oh-my-tmux](https://github.com/gpakosz/.tmux), you need xsel for copying to system clipboard
 
 ## 6. Have fun
 You are welcome to PR.
