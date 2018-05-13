@@ -36,10 +36,28 @@ cd ~/.vim/bundle/YouCompleteMe
 ./install.py --clang-completer
 ```
 ## 5. Install tmux >= 2.1
-install tmux >=2.1 and [oh-my-tmux](https://github.com/gpakosz/.tmux), you need xsel for copying to system clipboard
+install tmux >=2.1 and [oh-my-tmux](https://github.com/gpakosz/.tmux), you need xsel for copying to system clipboard,
+
+If you use ubuntu install
+```
+sudo apt-get install libevent-dev
+git clone https://github.com/tmux/tmux.git
+cd tmux
+sh autogen.sh
+./configure && make
+```
+
+To install oh-my-tmux
+```
+cd
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+```
+
+To compline
 
 ## 6. Have fun
 You are welcome to PR.
 
-## ATTENTION
-Because of the version dependance config file for tmux, `bc` need to be installed.
+<!-- ## ATTENTION -->
+<!-- Because of the version dependance config file for tmux, `bc` need to be installed. -->
