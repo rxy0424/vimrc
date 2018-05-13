@@ -35,7 +35,10 @@ if you use Ubuntu
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --clang-completer
 ```
-## 5. Have fun
+## 5. Install tmux >= 2.1
+install tmux >=2.1 and [oh-my-tmux](https://github.com/gpakosz/.tmux)
+
+## 6. Have fun
 You are welcome to PR.
 
 ## ATTENTION
