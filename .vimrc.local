@@ -149,4 +149,4 @@ nnoremap <F2> :CtrlSF<space>
 let g:airline_powerline_fonts = 1
 
 "LeaderF Cache
-let g:Lf_CacheDirectory = "~/.cache/leaderf"
+let g:Lf_CacheDirectory = ".cache/leaderf"
