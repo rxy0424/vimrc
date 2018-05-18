@@ -60,7 +60,9 @@ let g:ycm_cache_omnifunc=0
 " 语法关键字补全         
 let g:ycm_seed_identifiers_with_syntax=1
 
-let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf=expand('~/.ycm_extra_conf.py')
+let g:ycm_show_diagnostics_ui = 0
+let g:ycm_enable_diagnostic_highlighting=0
 
 "ycm跳转相关
 nnoremap <leader>jc :YcmCompleter GoToDeclaration<CR>
@@ -72,8 +74,8 @@ nnoremap <leader>ji :YcmCompleter GoToInclude<CR>
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_by_filename = 1
 
-" make YCM compatible with UltiSnips (using supertab)
-let g:ycm_key_list_select_completion = ['<C-j>', '<Down>']
+" make YCM compatible with UltiSnips
+let g:ycm_key_list_select_completion = ['<tab>','<C-j>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-k>', '<Up>']
  
 " better key bindings for UltiSnipsExpandTrigger
@@ -123,7 +125,7 @@ let g:Lf_ShortcutF = '<c-p>'
 noremap <leader>m :LeaderfMru<cr>
 noremap <leader>f :LeaderfFunction!<cr>
 noremap <leader>b :LeaderfBuffer<cr>
-noremap <leader>t :LeaderfTag<cr>
+noremap <leader>t :LeaderfTag!<cr>
 let g:Lf_StlSeparator = { 'left': '', 'right': '', 'font': '' }
  
 let g:Lf_RootMarkers = ['.project', '.root', '.svn', '.git']
