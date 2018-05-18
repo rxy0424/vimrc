@@ -9,7 +9,7 @@
 "Plugin 'rxy0424/rxy-cmake'
 "Plugin 'vim-latex/vim-latex'
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
-Plug 'ervandew/supertab'
+" Plug 'ervandew/supertab'
 Plug 'neomake/neomake'
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'derekwyatt/vim-fswitch'
@@ -20,6 +20,9 @@ Plug 'vim-latex/vim-latex'
 Plug 'junegunn/fzf', { 'dir': '~/.vim/bundle/.fzf', 'do': './install --all'}
 Plug 'ConradIrwin/vim-bracketed-paste'
 Plug 'Yggdroot/LeaderF', {'do': './install.sh'}
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'justinmk/vim-dirvish'
+Plug 'tpope/vim-eunuch'
 " Plug 'andymass/vim-matchup'
 
 
