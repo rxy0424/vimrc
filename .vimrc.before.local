@@ -6,3 +6,5 @@ let g:loaded_matchit = 1
 " disable python-mode insert breakpoint in .py file because it confit with
 " Leaerrf
 let g:pymode_breakpoint = 0
+let g:ycm_show_diagnostics_ui = 0
+let g:ycm_enable_diagnostic_highlighting=0
