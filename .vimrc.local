@@ -61,8 +61,6 @@ let g:ycm_cache_omnifunc=0
 let g:ycm_seed_identifiers_with_syntax=1
 
 let g:ycm_global_ycm_extra_conf=expand('~/.ycm_extra_conf.py')
-let g:ycm_show_diagnostics_ui = 0
-let g:ycm_enable_diagnostic_highlighting=0
 
 "ycm跳转相关
 nnoremap <leader>jc :YcmCompleter GoToDeclaration<CR>
@@ -133,7 +131,7 @@ let g:Lf_WorkingDirectoryMode = 'Ac'
 let g:Lf_WindowHeight = 0.30
 let g:Lf_CacheDirectory = expand('~/.vim/cache')
 let g:Lf_ShowRelativePath = 0
-let g:Lf_HideHelp = 1
+let g:Lf_HideHelp = 0
 let g:Lf_StlColorscheme = 'powerline'
 let g:Lf_PreviewResult = {'Function':0}
  
