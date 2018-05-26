@@ -8,3 +8,7 @@ let g:loaded_matchit = 1
 let g:pymode_breakpoint = 0
 let g:ycm_show_diagnostics_ui = 0
 let g:ycm_enable_diagnostic_highlighting=0
+
+let g:gutentags_ctags_auto_set_tags = 0
+
+let g:spf13_no_views = 1
