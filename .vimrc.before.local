@@ -8,6 +8,7 @@ let g:loaded_matchit = 1
 let g:pymode_breakpoint = 0
 let g:ycm_show_diagnostics_ui = 0
 let g:ycm_enable_diagnostic_highlighting=0
+let g:ycm_python_binary_path= 'python'
 
 let g:gutentags_ctags_auto_set_tags = 0
 
