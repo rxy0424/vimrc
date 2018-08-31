@@ -68,10 +68,6 @@ nnoremap <leader>jd :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>ji :YcmCompleter GoToInclude<CR>
 
 
-"ctrlp相关
-let g:ctrlp_working_path_mode = 'ra'
-let g:ctrlp_by_filename = 1
-
 " make YCM compatible with UltiSnips
 let g:ycm_key_list_select_completion = ['<tab>','<C-j>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-k>', '<Up>']
@@ -79,8 +75,8 @@ let g:ycm_key_list_previous_completion = ['<C-k>', '<Up>']
 " better key bindings for UltiSnipsExpandTrigger
 " UltiSnips hot key confilct with ycm
 let g:UltiSnipsExpandTrigger="<c-e>"
-let g:UltiSnipsJumpForwardTrigger="<leader><tab>"
-let g:UltiSnipsJumpBackwardTrigger="<leader><s-tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 
 " *.cpp 和 *.h 间切换
 nmap <silent> <Leader>sw :FSHere<cr>

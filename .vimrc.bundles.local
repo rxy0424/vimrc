@@ -1,29 +1,44 @@
-"Bundle 'rdnetto/YCM-Generator'
-" 'scrooloose/syntastic'
-"Bundle 'ervandew/supertab'
-"Bundle 'neomake/neomake'
-"Bundle 'octol/vim-cpp-enhanced-highlight'
-"Bundle 'derekwyatt/vim-fswitch'
-"Bundle 'dyng/ctrlsf.vim'
-"Plugin 'skywind3000/asyncrun.vim'
-"Plugin 'rxy0424/rxy-cmake'
-"Plugin 'vim-latex/vim-latex'
+" to generate ycm config file
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
-" Plug 'ervandew/supertab'
+
+" plugin for vim to asynchronously run program
 Plug 'neomake/neomake'
+
+" hightlight for cpp
 Plug 'octol/vim-cpp-enhanced-highlight'
+
+" switch betweent program file and header
 Plug 'derekwyatt/vim-fswitch'
+
+" for search
 Plug 'dyng/ctrlsf.vim'
+
+" asynchronously run
 Plug 'skywind3000/asyncrun.vim'
+
+" my plug for cmake
 Plug 'rxy0424/rxy-cmake'
+
+" latex for vim
 Plug 'vim-latex/vim-latex'
+
+" support for file search
 Plug 'junegunn/fzf', { 'dir': '~/.vim/bundle/.fzf', 'do': './install --all'}
+
+" auto :set paste for you
 Plug 'ConradIrwin/vim-bracketed-paste'
+
+" use it instead of ctrlp
 Plug 'Yggdroot/LeaderF', {'do': './install.sh'}
+
+" generate tags for you
 Plug 'ludovicchabant/vim-gutentags'
+
+" file manager
 Plug 'justinmk/vim-dirvish'
+
+" vim sugar for the UNIX shell commands
 Plug 'tpope/vim-eunuch'
-" Plug 'andymass/vim-matchup'
 
 
 if has('mac')
