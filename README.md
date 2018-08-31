@@ -59,7 +59,7 @@ To compline
 ## 6. Plugin in my config
 
 ### 6.1 fzf
-<ctrl-r> in shell is updated by fzf, give it a try. 
+`<ctrl-r>` in shell is updated by fzf, give it a try. 
 
 `vim **<tab>` show file in pwd, `<ctrl-j>` for down and `<ctrl-j>` for up, `<tab>` for select, similar for ssh. Particular, `kill -9 <tab>` does need `**`
 
