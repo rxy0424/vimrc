@@ -155,6 +155,8 @@ generate tags for you in project in ~/.cache/tags, and add it to tags path in vi
 
 ### 6.7 ctrlsf
 
+`ripgrep` is needed for this plugin.
+
 1. Run `:CtrlSF [pattern]`, it will split a new window to show search result.
 
 2. If you are doing an asynchronous searching, you can explore and edit other files in the meanwhile, and can always press `Ctrl-C` to stop searching.
