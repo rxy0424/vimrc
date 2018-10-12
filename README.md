@@ -3,6 +3,17 @@
 This is my config file for vim with spf-13.
 
 Here is the step to fellow me:
+## 0. Prepare
+In Ubuntu, some packages are needed to be installed to complie Vim.
+```
+sudo apt install python-dev perl libperl-dev ruby ruby-dev lua5.3 liblua5.3 liblua5.3-dev
+```
+
+Some time,headers and shared library should be soft linked to correct location.
+```
+sudo ln -sf /usr/include/lua5.3/*.* /usr/include
+sudo ln -s /usr/lib/x86_64-linux-gnu/liblua5.3.so /usr/lib/liblua.so
+```
 
 ## 1. Install Vim
 In ArchLinux, Install Vim with `sudo pacman -S gvim`
