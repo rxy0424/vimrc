@@ -6,7 +6,7 @@ Here is the step to fellow me:
 ## 0. Prepare
 In Ubuntu, some packages are needed to be installed to complie Vim.
 ```
-sudo apt install python-dev perl libperl-dev ruby ruby-dev lua5.3 liblua5.3 liblua5.3-dev
+sudo apt install libncurses5-dev python-dev perl libperl-dev ruby ruby-dev lua5.3 liblua5.3 liblua5.3-dev
 ```
 
 Some time,headers and shared library should be soft linked to correct location.
@@ -51,7 +51,7 @@ install tmux >=2.1 and [oh-my-tmux](https://github.com/gpakosz/.tmux), you need 
 
 If you use ubuntu install
 ```
-sudo apt-get install libevent-dev
+sudo apt-get install libevent-dev automake
 git clone https://github.com/tmux/tmux.git
 cd tmux
 sh autogen.sh
