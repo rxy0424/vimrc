@@ -24,6 +24,14 @@ In Ubuntu, you need to complie Vim form source,when config you need to run this
 ```
 rember to change the `with-pyton-config-dir`
 
+
+if python3 is wantted:
+
+```
+./configure --with-features=huge --enable-rubyinterp --enable-luainterp --enable-perlinterp  --with-python3-command=python3.5 --with-python3-config-dir=/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu --enable-python3interp --enable-gui=gtk2 --enable-cscope --enable-fail-if-missing
+
+```
+
 ## 2. Install my conig
 1.  git clone https://github.com/rxy0424/vimrc.git
 2.  run ./install.py in vimrc directory
